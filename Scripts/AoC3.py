@@ -1,6 +1,6 @@
 import re
 
-with open('input3.txt') as f:
+with open('Input Text/input3.txt') as f:
     multi = f.read().strip()
         
 # Part 1

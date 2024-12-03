@@ -2,7 +2,7 @@ from collections import Counter
 
 a, b = [], []
 
-with open('input.txt', 'r') as f:
+with open('Input Text/input.txt', 'r') as f:
     for line in f.readlines():
         x, y = (int(z) for z in line.split())
         a.append(x)
